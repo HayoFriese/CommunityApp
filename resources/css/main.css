@@ -1,0 +1,276 @@
+*{
+	webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+}
+#signoutForm{
+	display:inline-block;
+	right:5px;
+	position:absolute;
+	height:100%;
+	}
+	#signoutForm div{
+		margin-top:5px;
+		display:inline-block;
+		vertical-align: middle;
+		margin-left: 10px;
+	}
+
+
+
+.back{
+	position:absolute;
+	float:left;
+}
+.noPosts{
+	padding-top: 15px;
+	text-align: center;
+	opacity:0.5;
+	}
+	.noPosts span{
+		margin:0 0 5px 0;
+		padding:0;
+	}
+
+.postCont{
+	float:left;
+	width:100%;
+	padding:10px 0 10px 10px;	
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+	.postBy{
+		float:left;
+		width:100%;
+		}
+		.postBy img{
+			float:left;
+			width:45px;
+			height:45px;
+			border-radius: 50%;
+		}
+		.postBy .user{
+			width:76%;
+			float:left;
+			padding:0;	
+		}
+	.postCont .user{
+		float:left;
+		padding:0 0 0 10px;
+		}
+		.user .userName{
+			padding:0;
+			margin:0;
+			width:100%;
+			float:left;
+			}
+			.username a{
+				margin:0;
+				display:inline-block;
+				vertical-align: middle;
+			}
+			.userName span{
+				float:right;
+				margin-top: -2px;
+			}
+			.userName form{
+				display:inline-block;
+				vertical-align: middle;
+				}
+				.userName form div{
+					border-radius: 50% !important;
+					width:20px;
+					height:20px;
+					padding:5px;
+					margin-top: 0;
+					border:none !important;
+					background-color: rgba(255,255,255,0) !important;
+					vertical-align:middle;
+					display:inline-block;
+					line-height: 1em;
+					color:blue !important;
+					}
+					.userName form div input{
+						background-color: rgba(25,255,255,0)
+					}
+			.user .userName p{
+				padding:0;
+				margin:0;
+				font-weight: 600;
+			}
+		.user .postDate{
+			padding:0;
+			margin:0;
+			}
+			.user .postDate p{
+				padding:0;
+				margin:10px 0 0 0;
+				font-style: italic;
+				font-size: 0.75em;
+			}
+		.post{
+			float:left;
+			width:100%;
+		}
+		.deletePost{
+			float:left;
+			width:50%;
+			display:inline-block;
+			}
+			.deletePost div{
+				padding:5px 10px 5px 40px;
+				text-align: right;
+				float:left;
+				display:inline-block;
+				border:0;
+				box-shadow: none;
+				font-weight: normal;
+				font-size: 0.7em;
+			}
+
+.opCont{
+	float:left;
+	width:100%;
+	padding:10px 0 20px 10px;	
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+	.opPostBy{
+		float:left;
+		width:100%;
+		}
+		.opDate{
+			font-size: 0.8em;
+			font-style: italic;
+			opacity:0.5;
+		}
+		.opPostBy img{
+			float:left;
+			width:45px;
+			height:45px;
+			border-radius: 50%;
+			margin-right: 20px;
+		}
+		.opPostBy .opUser{
+			width:76%;
+			float:left;
+			padding:0;	
+		}
+		.opUserName{
+			width:100%;
+			float:left;
+		}
+		.opUserName h3{
+			margin:0;
+			display:inline-block;
+			vertical-align: middle;
+		}
+		.opUserName span{
+			float:right;
+			margin-top: -2px;
+		}
+		.opUserName form{
+			display:inline-block;
+			vertical-align: middle;
+			}
+			.opUserName form div{
+				border-radius: 50% !important;
+				width:20px;
+				height:20px;
+				padding:5px;
+				margin-top: 0;
+				border:none !important;
+				background-color: rgba(255,255,255,0) !important;
+				vertical-align:middle;
+				display:inline-block;
+				line-height: 1em;
+				color:blue !important;
+				}
+				.opUserName form div input{
+					background-color: rgba(25,255,255,0)
+				}
+		.op{
+			width:100%;
+			float:left;
+			margin:0;
+			padding: 0;
+			}
+			.op p{
+				margin:0;
+				margin-top:5px;
+			}
+
+.commentCont{
+	float:left;
+	width:100%;
+	padding:0 0 0 40px;	
+	margin-bottom: 5px;
+	}
+	.commentBy{
+		float:left;
+		width:100%;
+		}
+		.commentBy .user{
+			width:100%;
+			float:left;
+			padding:0;	
+		}
+		.commentUser{
+			width:100%;
+			float:left;
+		}
+		.commentUser h4{
+			margin:0;
+			margin-top:10px;
+			display:inline-block;
+			vertical-align: middle;
+		}
+		.commentUser span{
+			float:right;
+
+		}
+		.commentUser form{
+			display:inline-block;
+			vertical-align: middle;
+			}
+			.commentUser form div{
+				border-radius: 50% !important;
+				width:20px;
+				height:20px;
+				padding:5px;
+				border:none !important;
+				background-color: rgba(255,255,255,0) !important;
+				vertical-align:middle;
+				display:inline-block;
+				line-height: 1em;
+				color:blue !important;
+				}
+				.commentUser form div input{
+					background-color: rgba(25,255,255,0)
+				}
+		.comment{
+			float:left;
+			margin:0;
+			width:100%;
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+			}
+			.comment p{
+				margin-bottom: 0;
+			}
+			.comment div p{
+				font-size: 0.8em;
+				font-style: italic;
+				opacity:0.5;
+				margin-bottom: 15px;
+			}
+
+#newPost h3{
+	margin:10px 0;
+}
+.required{
+	margin:0;
+	font-size: 0.8em;
+}
+#pageHeader{
+	text-shadow:none;
+}
